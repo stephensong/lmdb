@@ -1,0 +1,27 @@
+{
+    "name"            : "lmdb"
+  , "description"     : "nothing to see here yet, please move along"
+  , "contributors"    : [
+        "Rod Vagg <r@va.gg> (https://github.com/rvagg)"
+    ]
+  , "keywords": [
+    ]
+  , "version"         : "0.0.0"
+  , "main"            : "lmdb.js"
+  , "dependencies"    : {
+        "memdown"         : "~0.2.0"
+      , "levelup"         : "~0.9.0"
+      , "xtend"           : "~2.0.4"
+    }
+  , "devDependencies" : {
+        "tape"            : "*"
+    }
+  , "repository"      : {
+        "type"            : "git"
+      , "url"             : "https://github.com/rvagg/lmdb.git"
+    }
+  , "scripts"         : {
+        "test"            : "node ./test.js"
+    }
+  , "license"         : "MIT"
+}
